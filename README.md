@@ -3,7 +3,7 @@ About r-vcfr
 
 Home: https://github.com/knausb/vcfR, https://knausb.github.io/vcfR_documentation/
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: BSD-3-Clause
 
