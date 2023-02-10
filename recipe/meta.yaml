@@ -1,4 +1,4 @@
-{% set version = "1.13.0" %}
+{% set version = "1.14.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/vcfR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/vcfR/vcfR_{{ version }}.tar.gz
-  sha256: 743ce845732ada638f0f8a2cd789cd06aa25d818fec87c8bdb998f7c77089ebc
+  sha256: 8576dbd2e5a707dabc20acbbea3fe18b6a783910e622423ac203609a386204cb
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
