@@ -3,6 +3,7 @@ About r-vcfr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-vcfr-feedstock/blob/main/LICENSE.txt)
 
+
 About r-vcfr
 ------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/knausb/vcfR, https://knausb.github.io/vcfR_documentatio
 Package license: GPL-3.0-only
 
 Summary: Facilitates easy manipulation of variant call format (VCF) data. Functions are provided to rapidly read from and write to VCF files. Once VCF data is read into R a parser function extracts matrices of data. This information can then be used for quality control or other purposes. Additional functions provide visualization of genomic data. Once processing is complete data may be written to a VCF file (*.vcf.gz). It also may be converted into other popular R objects (e.g., genlight, DNAbin). VcfR provides a link between VCF data and familiar R software.
+
 About r-vcfr
 ------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
